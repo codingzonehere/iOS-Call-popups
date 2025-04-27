@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <title>iOS Call Popup</title>
+</head>
+<body>
+  <div id="popup">
+    <p class="popup-text">This website has been blocked from automatically starting a call.</p>
+    <div class="popup-buttons">
+      <button class="ignore-button" onclick="ignoreCall()">Ignore</button>
+      <button class="allow-button" onclick="allowCall()">Allow Call</button>
+    </div>
+  </div>
+
+  <a id="callLink" href="tel:+18888888888"></a> <!-- Hidden call link -->
+
+
+  <script src="apps.js"></script>
+</body>
+</html>
